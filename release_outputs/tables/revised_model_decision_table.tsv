@@ -1,0 +1,16 @@
+tier	neutral_windows	balancing_windows	sweep_windows	ambiguous_no_consensus_windows	balancing_genes	sweep_genes	BGS_like	sweep_like_excess	abs_delta_p_R2	f3_R2	number_of_significant_GO_terms	immune_Fisher_OR	immune_Fisher_p_value	recommended_paper_use	immune_Fisher_OR_balancing	immune_Fisher_p_value_balancing
+GMM/RF	60780	53463	22153	16924										broad genomic state		
+Old best continuous 3-of-3	0	49403	16280	87637										legacy comparison only		
+Continuous-distance 3-class	61963	57702	31262	2393										continuous model with explicit neutral state		
+GMM/RF + continuous-distance agreement	44896	44926	15204	48294										main 3-class agreement model		
+Distance margin >= 0.25	0	42243	11568	99509										sensitivity analysis		
+Distance margin >= 0.50	0	39135	6948	107237										primary conservative selected-window map		
+Distance margin >= 1.00	0	32050	90	121180										strict sensitivity analysis		
+Score margin >= 0.25	0	48818	15996	88506										alternative selection-only sensitivity		
+Score margin >= 0.50	0	48232	15730	89358										alternative selection-only map		
+Score margin >= 1.00	0	46878	15174	91268										strict alternative sensitivity		
+Top 1%	0	556	177	152587										high-confidence sensitivity		
+Top 500	0	498	342	152480										extreme candidate loci only		
+Empirical FDR <= 0.05	0	25	82	153213										primary significant sweep/balancing calls		
+Genome-wide FDR <= 0.05	0	1	2	153317										global chromosome-shift sensitivity		
+Global shift selected windows	0			153320										genomewide-significant but not chromosome-local outliers		

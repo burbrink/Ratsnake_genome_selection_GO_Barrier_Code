@@ -1,0 +1,29 @@
+path	type	description
+tables/revised_model_decision_table.tsv	table	Integrated tier decision table with window counts and downstream summary columns
+tables/revised_selection_tier_counts.tsv	table	Per-tier selection counts and summary statistics
+tables/QC_GMM_model_selection.tsv	table	GMM model-selection statistics across candidate G values
+tables/QC_tier_summary_by_label.tsv	table	QC summary of tier-by-label population-genetic profiles
+tables/QC_BGS_by_tier.tsv	table	BGS and sweep-excess summaries by tier
+tables/QC_global_chromosome_summary.tsv	table	Global chromosome-level shifts including ZW
+tables/QC_ZW_vs_autosomes.tsv	table	ZW versus autosome contrasts
+tables/QC_local_outlier_by_chromosome.tsv	table	Local chromosome-aware FDR summaries by chromosome
+tables/comparison_best_models.csv	table	Barrier best-model comparison summary across tiers
+tables/comparison_validation_metrics.csv	table	Barrier validation metric comparison across tiers
+tables/barrier_validation_models_empirical_fdr_selected.csv	table	Barrier validation models for chromosome-aware local-outlier windows
+tables/barrier_validation_models_genomewide_fdr_selected.csv	table	Barrier validation models for genome-wide FDR windows
+tables/barrier_validation_models_global_shift_selected.csv	table	Barrier validation models for global-shift windows
+tables/selected_gene_counts_by_tier.tsv	table	Gene counts by tier
+tables/gene_overlap_matched_null_by_tier.tsv	table	Matched-null gene-overlap comparison by tier
+tables/GO_term_counts_by_tier.tsv	table	GO term count summary by tier
+tables/GO_matched_null_summary.tsv	table	Matched-null GO summary
+tables/immune_window_class_comparisons.tsv	table	Immune-window odds-ratio comparisons across classes
+tables/immune_matched_null_by_tier.tsv	table	Matched-null immune summary by tier
+tables/immune_related_GO_terms_by_tier.tsv	table	Immune-focused GO term summary by tier
+figures/Fig01_GMM_BIC_silhouette_ARI.pdf	figure	GMM model-selection summary
+figures/Fig02_tier_population_genetic_profiles.pdf	figure	Population-genetic profiles across major tiers
+figures/Fig03_chromosome_selected_window_tracks.pdf	figure	Genome-wide selected-window chromosome tracks
+figures/Fig04_barrier_empirical_fdr_abs_delta_p.pdf	figure	Barrier relationship for empirical-FDR windows
+figures/Fig05_chromosome_selected_windows_empirical_fdr_selected.pdf	figure	Chromosome map of local outlier windows
+figures/Fig06_chromosome_selected_windows_genomewide_fdr_selected.pdf	figure	Chromosome map of genome-wide FDR windows
+figures/Fig07_immune_window_odds_ratio_comparisons.pdf	figure	Immune window enrichment comparisons
+figures/Fig08_balancing_immune_windows_gmm_rf_contdist.pdf	figure	Balancing immune-window chromosome map

@@ -1,0 +1,10 @@
+tier	class	observed_immune_named_genes	null_mean_immune_named_genes	null_q95_immune_named_genes	empirical_p_immune_named_genes	enrichment_ratio_immune_named_genes	top_immune_chr
+gmm_rf	balancing	68	78.36	85.05	0.994011976047904	0.867789688616641	NC_045542.1_RagTag
+gmm_rf	neutral	51	69.83	77	1	0.730345123872261	NC_045542.1_RagTag
+gmm_rf	sweep	32	37.332	45	0.896207584830339	0.857173470481089	NC_045542.1_RagTag
+continuous_distance_3class	balancing	65	76.07	83	0.99001996007984	0.854476140397003	NC_045542.1_RagTag
+continuous_distance_3class	neutral	55	71.676	79	0.998003992015968	0.767341927562922	NC_045542.1_RagTag
+continuous_distance_3class	sweep	42	44.29	52	0.704590818363274	0.948295326258749	NC_045542.1_RagTag
+gmm_rf_contdist	balancing	59	68.456	76	0.992015968063872	0.861867476919481	NC_045542.1_RagTag
+gmm_rf_contdist	neutral	36	59.926	68	1	0.600740913793679	NC_045543.1_RagTag
+gmm_rf_contdist	sweep	25	24.952	32	0.518962075848303	1.0019236934915	NC_045546.1_RagTag

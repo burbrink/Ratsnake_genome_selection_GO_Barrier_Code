@@ -1,0 +1,15 @@
+tier	class	observed_sig_go_terms	null_mean_sig_go_terms	null_q95_sig_go_terms	empirical_p_sig_go_terms	observed_mapped_genes	null_iterations
+gmm_rf	balancing	0	0	0	1	8356	20
+gmm_rf	sweep	0	0	0	1	4063	20
+continuous_distance_3class	balancing	0	0	0	1	8169	20
+continuous_distance_3class	sweep	0	0	0	1	4969	20
+gmm_rf_contdist	balancing	0	0	0	1	7152	20
+gmm_rf_contdist	sweep	0	0	0	1	2782	20
+empirical_fdr_selected	balancing	0	0	0	1	8	20
+empirical_fdr_selected	sweep	0	0	0	1	44	20
+genomewide_fdr_selected	balancing	0				0	0
+genomewide_fdr_selected	sweep	0	0	0	1	2	20
+global_shift_selected	balancing	0				0	0
+global_shift_selected	sweep	0				0	0
+dist_margin_050	balancing	0	0	0	1	6324	20
+dist_margin_050	sweep	0	0	0	1	1605	20

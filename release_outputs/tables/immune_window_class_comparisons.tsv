@@ -1,0 +1,7 @@
+tier	class_a	class_b	n_a	n_b	immune_windows_a	immune_windows_b	odds_ratio	p_value
+gmm_rf	balancing	neutral	21673	19042	226	85	2.34999271924344	2.70498537458503e-12
+gmm_rf	balancing	sweep	21673	7586	226	54	1.46973799719367	0.0110683212890123
+continuous_distance_3class	balancing	neutral	22759	20605	230	108	1.93751207149044	7.19781142668498e-09
+continuous_distance_3class	balancing	sweep	22759	10690	230	67	1.61864856754893	0.000443742745176345
+gmm_rf_contdist	balancing	neutral	18282	14437	197	60	2.61001484020108	4.68416443479833e-12
+gmm_rf_contdist	balancing	sweep	18282	5349	197	38	1.5223893892348	0.0184576480746983
