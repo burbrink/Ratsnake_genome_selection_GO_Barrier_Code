@@ -1,0 +1,3 @@
+label	path	description
+input_rdata	/Users/frankburbrink/Dropbox/working_ratsnake_WGS/ratsnakes_filtered_no_indels_no_dups/Recombination/east-west_rats_fst_dxy_pi_recombination_da_GC_div_model_f3_tajD_mds_het_Fhet_freq_p_parentals.rdata	Main genome-window input object
+gtf_file	/Users/frankburbrink/Dropbox/working_ratsnake_WGS/ratsnake_GFF/braker_passqc_eggnog_genes.gtf	Gene annotation used for gene overlap and GO steps
