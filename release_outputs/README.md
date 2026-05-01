@@ -17,9 +17,13 @@ It intentionally excludes:
 - `tables/`
   - summary TSV/CSV outputs for selection tiers, chromosome summaries, barrier comparisons, GO, gene overlap, and immune analyses
 - `figures/`
-  - a compact numbered PDF figure set
+  - numbered PDF figures organized into two sections
+  - `section01_selection/`
+    - all release selection-side figures, numbered `SelectionFig01`, `SelectionFig02`, ...
+  - `section02_barrier_go/`
+    - all release barrier/GO-side figures, numbered `BarrierGOFig01`, `BarrierGOFig02`, ...
 - `metadata/`
-  - manifest files describing the release bundle
+  - manifest files describing the release bundle and the two numbered figure sections
 
 ## Key interpretation hierarchy
 
